@@ -13,7 +13,7 @@ const App = props => {
   return (
     <View style={styles.container}>
       <Text>Count:{count + ''} </Text>
-      <Button onPress={() => nav.navigate('Details')} title="Details" />
+      <Button onPress={() => nav.navigate('Details')} title="useRef" />
       <Button onPress={() => nav.navigate('Pokemon')} title="api screen" />
     </View>
   );
